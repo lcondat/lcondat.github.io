@@ -1,0 +1,34 @@
+body { font-family:verdana,arial,helvetica,sans-serif;
+           background-color: white }
+
+h1,h2,h3 { font-family:verdana,arial,helvetica,sans-serif;
+                 color:#034d84;
+                }
+h2 { text-align: center }
+h1 { font-size:25pt }
+h3 { font-size:15pt }
+
+tr.ligne { height: 400px; vertical-align: top}
+
+td.col1 { background-color: #034d84; width: 0em }
+
+td.col2 { background-color: #ffcb00; width: 10em }
+
+td.text { background-color: white;
+             font-family:verdana,arial,helvetica,sans-serif;
+             font-size:10pt;
+             }
+
+td.bouton {
+            font-weight: bold;
+            font-style: italic;
+            font-family: verdana,arial,helvetica,sans-serif;
+            background-color: #034d84;
+            width: 10em;
+            text-align : center;
+            }
+td.bouton a { text-decoration: none }
+td.bouton a:link    { color: #ffcb00 }
+td.bouton a:active  { color: blue }
+td.bouton a:visited { color: #f4b25b }
+td.bouton a:hover   { color: yellow; text-decoration: underline }
